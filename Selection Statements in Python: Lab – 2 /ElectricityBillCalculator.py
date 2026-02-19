@@ -1,9 +1,5 @@
-# 1. Electricity Bill Calculator 
-# Calculate the electricity bill based on units consumed: 
-# • 0–100 → ₹5/unit 
-# • 101–300 → ₹7/unit 
-# • Above 300 → ₹10/unit 
-# If the user is a senior citizen, apply 10% discount.
+# This program calculates the electricity bill based on the number of units consumed and whether the consumer is a senior citizen, applying different rates and a discount for senior citizens.
+
 units = float(input("Enter the number of units consumed: "))
 #Units validation
 if units < 0:
@@ -24,3 +20,4 @@ else:
 if is_senior_citizen == "yes":
     bill *= 0.9
 print(f"The total electricity bill is: ₹{bill:.2f}")
+
