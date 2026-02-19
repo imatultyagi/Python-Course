@@ -1,10 +1,4 @@
-# . Income Tax Calculator (India Based) 
-# Create a program that calculates income tax based on the following slabs: 
-# • Up to ₹2,50,000 → No tax 
-# • ₹2,50,001 – ₹5,00,000 → 5% 
-# • ₹5,00,001 – ₹10,00,000 → 20% 
-# • Above ₹10,00,000 → 30% 
-# Additionally, if the person is a senior citizen (age ≥ 60), increase the exemption limit to ₹3,00,000. 
+# This program calculates the income tax based on the annual income and age of the individual, applying different tax rates and deductions for senior citizens.
 income = float(input("Enter your annual income: "))
 #income validation
 if income < 0:
